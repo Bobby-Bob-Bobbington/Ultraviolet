@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "public",
+  "build": {
+    "env": {
+      "UV_PORT": "8080"
+    }
+  }
+}
